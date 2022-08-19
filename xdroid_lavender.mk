@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common xdroidsp stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
-XDROID_MAINTAINER := etahamad
+XDROID_MAINTAINER := MRMDprjkt°
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
@@ -35,11 +35,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
-        PRODUCT_NAME="lavender" \
-        PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys"
+        PRODUCT_NAME="lavender"
 
-# Build Fingerprint
-BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
 
 # Device identifier
 PRODUCT_NAME := xdroid_lavender
@@ -49,4 +46,7 @@ PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 
+
 TARGET_VENDOR_PRODUCT_NAME := lavender
+
+
